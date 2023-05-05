@@ -1,13 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-@media (max-width: 767px) {
-  table {
-    font-size: 12px;
-  }
-  table th, table td {
-    padding: 8px;
-  }
-}
 
 table {
 			border-radius:200px;
@@ -41,3 +33,11 @@ table {
 		table tbody tr:nth-child(even) {
 			background-color: #f2f2f2;
 		}
+@media (max-width: 767px) {
+  table {
+    font-size: 12px;
+  }
+  table th, table td {
+    padding: 8px;
+  }
+}
